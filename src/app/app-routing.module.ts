@@ -7,9 +7,8 @@ const routes: Routes = [
     loadChildren: () => import('./home/home.module').then( m => m.HomePageModule)
   },
   {
-    path: '',
-    redirectTo: 'home',
-    pathMatch: 'full'
+    path: 'sp',
+    loadChildren: () => import('./sp/sp.module').then( m => m.SpPageModule)
   },
 ];
 
