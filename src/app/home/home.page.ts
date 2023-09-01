@@ -9,4 +9,8 @@ export class HomePage {
 
   constructor() {}
 
+  logar(){
+    console.log("teste");
+  }
+
 }
