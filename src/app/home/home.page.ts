@@ -9,7 +9,7 @@ export class HomePage {
 
   constructor() {}
 
-  logar(){
+  logar(): void{
     console.log("teste");
   }
 
